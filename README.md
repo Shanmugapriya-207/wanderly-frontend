@@ -1,70 +1,137 @@
-# Getting Started with Create React App
+🌍 Wanderly - Complete Tourism Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+📋 PROJECT OVERVIEW
+A full-stack web application for managing tourism services with professional user interface and complete functionality.
 
-## Available Scripts
+🎯 CORE FEATURES:
 
-In the project directory, you can run:
+🔐 AUTHENTICATION SYSTEM
+User Registration & Login
+JWT Token-based security
+Password hashing with bcrypt
+Protected routes
+Session management
 
-### `npm start`
+👤 USER DASHBOARD
+Personalized welcome message
+Quick access to all features
+Travel statistics overview
+Recent activity tracking
+Profile completion status
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🌏 DESTINATION MANAGEMENT
+Browse popular destinations (Paris, Tokyo, Bali, New York)
+Filter by categories (Beach, Mountain, Cultural, Adventure)
+Detailed destination information
+Price ranges and packages
+Booking availability
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🎫 BOOKING SYSTEM
+Multi-step booking form
+Destination selection
+Travel date picker
+Number of travelers
+Package selection (Standard, Premium, Luxury)
+Real-time price calculation
+Booking summary
+Cancellation policy
 
-### `npm test`
+💳 PAYMENT INTEGRATION
+Multiple payment methods (Card, UPI, Net Banking, Wallet)
+Secure payment processing
+Payment receipt generation
+Transaction history
+Test mode with dummy cards
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+⭐ REVIEWS & RATINGS
+Write destination reviews
+5-star rating system
+Anonymous posting option
+Helpful votes system
+Review statistics
+Traveler testimonials
 
-### `npm run build`
+📧 EMAIL NOTIFICATIONS
+Welcome emails on registration
+Booking confirmations
+Payment receipts
+Travel reminders
+Promotional offers
+Email preferences management
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+⚙️ ADMIN PANEL (Special Access)
+Dashboard: System statistics overview
+User Management: View/Edit/Delete users, Activate/Deactivate accounts
+Booking Management: Confirm/Reject bookings, View all transactions
+Destination Management: Add/Edit/Enable/Disable destinations
+Reports: Revenue, user activity, booking trends
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+👤 USER PROFILE
+Personal information management
+Booking history
+Payment methods
+Loyalty rewards
+Travel preferences
+Account settings
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🔔 NOTIFICATIONS CENTER
+Email notification settings
+Booking alerts
+System notifications
+Promotional offers toggle
+Notification history
 
-### `npm run eject`
+🧭 TOUR CATEGORIES TAB
+Domestic Tours
+International Tours
+Family Trips
+Adventure Tours
+Interactive tab interface
+Category-specific content
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🛠️ TECH STACK
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Frontend:
+⚛️ React.js
+🎨 Bootstrap 5
+🚀 React Router
+📡 Axios for API calls
+🎯 React Icons
+💅 Custom CSS with animations
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Backend:
+🟢 Node.js
+🚂 Express.js
+🍃 MongoDB + Mongoose
+🔑 JWT Authentication
+🔐 Bcrypt password hashing
+📧 Nodemailer for emails
+🌐 CORS enabled
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Database:
+🗄️ MongoDB Atlas (Cloud) / Local MongoDB
+📊 Collections: Users, Bookings, Destinations, Reviews
+🔍 Indexed queries
+💾 Data persistence
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🔒 SECURITY FEATURES
+Password Security: BCrypt hashing
+API Protection: JWT tokens
+Input Validation: Server-side validation
+CORS Configuration: Whitelisted origins
+Error Handling: Generic error messages
+Data Sanitization: MongoDB injection prevention
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+📈 SCALABILITY
+Ready for Enhancement:
+Real-time chat support
+Social media integration
+Multi-language support
+Advanced search filters
+Recommendation engine
+Mobile app (React Native)
+Analytics dashboard.
+API documentation
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+represents a co
